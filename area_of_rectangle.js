@@ -1,6 +1,6 @@
-length = 10;
-width = 4;
+let length = 10;
+let width = 4;
 
-rectangleArea = (length * width);
+let rectangleArea = (length * width);
 
 console.log("The area of the rectangle is " + rectangleArea);
