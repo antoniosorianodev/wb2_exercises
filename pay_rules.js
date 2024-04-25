@@ -6,7 +6,7 @@ if (hoursWorked > 40) {
     let overtimeHours = (hoursWorked - 40);
     let normalTotal = (payRate * 40);
     let overtimeTotal = (payRate * 1.5 * overtimeHours);
-    total = normalTotal + overtimeTotal;
+    total = (normalTotal + overtimeTotal).toFixed(2);
 } else {
     total = (payRate * hoursWorked).toFixed(2);
 }
